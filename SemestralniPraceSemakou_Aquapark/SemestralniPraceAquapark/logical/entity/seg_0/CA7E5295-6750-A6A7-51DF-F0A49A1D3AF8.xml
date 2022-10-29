@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA7E5295-6750-A6A7-51DF-F0A49A1D3AF8" name="ZAMESTNANEC">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:48:53 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_zamestnanec" id="25C2FC0E-F9E1-B923-6F3A-DAC5AAACD329">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:53:57 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jmeno" id="093EB397-19C0-6C57-C0B4-2E4140C1B287">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:54:17 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prijmeni" id="321AE64B-74B3-FEC1-2E01-0ECA3AC9EDD4">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:54:19 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_aquapark" id="E00B91DF-D846-4551-3C5B-77CC6D63D5D6">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:58:07 UTC</createdTime>
+<generatorID>B3785328-EC11-EE21-33A8-189E4114F1B4</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<referedAttribute>8CA863B0-02B2-6FCB-8C59-29BAF64069A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_adresa" id="2CBDE7D6-37E6-6E77-2741-25F9E5262AF9">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 14:01:36 UTC</createdTime>
+<generatorID>BA12C4B7-7DF8-0F26-D48B-F64EA4887DFC</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<referedAttribute>7B1824F3-3BA7-7BEA-B1C7-7DD81EB20B35</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_pracovni_pozice" id="07DEDB66-4A49-9D19-3311-45F94E4D9898">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-14 21:35:09 UTC</createdTime>
+<generatorID>7D97FB35-FBD0-9141-6C53-0390F6A84527</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<referedAttribute>49CDF6C9-9ADF-2E60-583D-F6F9CC84CA7C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_zamestnanec_vazba" id="779D9865-FFB3-2000-2780-806536CA285A">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-14 21:39:05 UTC</createdTime>
+<generatorID>3AB0C8D7-7708-2116-E0D9-4F03080B9BA4</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>25C2FC0E-F9E1-B923-6F3A-DAC5AAACD329</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_naklad" id="F3797972-596B-9453-387C-E3C8FDF1AF0E">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-07 18:21:22 UTC</createdTime>
+<generatorID>72B81CFC-07C5-48AC-6575-A1F52FB48927</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<referedAttribute>57D6FCE4-F895-D597-C00F-F8B1D4EE8E93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCBB86B4-4EE4-8B7C-3985-9D9C25B0FF2C" name="ZAMESTNANEC PK">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:54:11 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25C2FC0E-F9E1-B923-6F3A-DAC5AAACD329</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="732A8EBB-D4D2-FEA1-5301-9B3354F37568" containerWithKeyObject="B13B56D3-B07A-E6F9-9452-23C36F3B8DB4" localFKIndex="2CC617FB-2C15-2CED-85DE-D541C77A98B5" name="HOTOVE_PLATBA_FK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>C634F993-11D7-63C9-EFF4-F3F5BC2A71C7</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<referredTableLongName>PLATBY</referredTableLongName>
+<arc>0D8A652F-1F6D-E107-2262-73C5118EA75E</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D086334C-AF7E-3F10-5B0E-B3113E27D156</referredTableID>
+<keyObject>5B227B41-EF75-DFDE-10C0-C0A4CC51588D</keyObject>
+<referredKeyID>5B227B41-EF75-DFDE-10C0-C0A4CC51588D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_platba</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Hotove</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

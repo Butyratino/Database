@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="747E73AF-6AAB-E144-803F-B4EACD131661" name="ADRESA">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:26:32 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_adresa" id="7B1824F3-3BA7-7BEA-B1C7-7DD81EB20B35">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:40:41 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mesto" id="3BCE357E-EB59-6B84-C1BF-60C46C5EE3E2">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:41:01 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Domovni_cislo" id="FEFA7819-E308-7459-C169-9713A9754379">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-07 18:28:18 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,30</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PSC" id="50D2D66F-2BE4-2C7F-278B-6D9B40871414">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-07 12:07:04 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>30</dataTypeScale>
+<ownDataTypeParameters>,,30</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulice" id="A81FDCE1-43BC-D812-5081-88264CD0233C">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:41:45 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_stat" id="B41C1676-5CB1-66A4-6953-C31060CF56B1">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-09 19:57:23 UTC</createdTime>
+<generatorID>DAB3B271-C023-E937-E40C-6B15B0F58B9F</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<referedAttribute>791B1304-0DB9-98D4-FDEE-C3B12C4C7F24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>80</dataTypeScale>
+<ownDataTypeParameters>,,80</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99F9303B-F071-929C-A68E-5C171153F448" name="ADRESA PK">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:27:07 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B1824F3-3BA7-7BEA-B1C7-7DD81EB20B35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

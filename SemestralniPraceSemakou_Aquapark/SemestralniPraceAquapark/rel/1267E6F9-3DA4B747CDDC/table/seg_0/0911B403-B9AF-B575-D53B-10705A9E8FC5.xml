@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0911B403-B9AF-B575-D53B-10705A9E8FC5" name="KARTOU">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>4FF6BE7A-58A2-2F96-F37A-30FCA1F2214D</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_platba" id="DF0B55A4-F7F2-1B8A-A0BE-DFEB5A220FA5">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>C31FCA82-39DF-985C-92F8-D22AE00EB7E8</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="134653AB-6A04-AE04-8E41-9B463DB41FAF" referredColumn="9B6BDFA2-457A-46E3-9EBD-4A2D8BC0CE9C"/>
+</associations>
+</Column>
+<Column name="Banka" id="25A7EF3D-C5A6-69CB-0F08-67A7C904C4F3">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>725AAADF-B4D2-8B55-7492-17772B765898</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64605510-DEF0-1B0D-40DC-798CED15D9D5" name="KARTOU_PK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>0FC38998-660F-EDB7-4A5B-37446AEB3335</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF0B55A4-F7F2-1B8A-A0BE-DFEB5A220FA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA1D7F89-FACD-3AE2-548C-38FFE60FA392" name="KARTOU_PLATBA_FK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>336C68C1-8370-74E1-0EE6-DA750A5DE088</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF0B55A4-F7F2-1B8A-A0BE-DFEB5A220FA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

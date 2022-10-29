@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4029F4D1-ADD4-A843-0119-6067246FA204" name="VEKOVE_KATEGORIE">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>0CA8E847-C959-D65C-91E8-B7BC50A15FF7</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<ordsAlias>vekova_kategorie</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_vekova_kategorie" id="2292965A-5787-F81D-3F94-D5A0FA9C39CC">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>C9D13C22-51AD-12EF-9831-C1A4D754DE38</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ_vekove_kategorii" id="6ED0A426-BF31-AD10-76D3-F99F31F8DA7D">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>3454CCEF-C2EE-42F6-1BE9-8320D0CC5385</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_atrakce" id="D5C1C9C6-289F-5112-079A-86A9DCAF1B1A">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>28952062-7C41-CDB6-DAFB-30A333C7033D</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5F43810-63EF-A6B6-BF51-7B67DD09691E" referredColumn="FA89FE6D-F305-EFDC-30A1-7E150F0B1B7E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F86BEDC-B227-A886-9BB2-CD4332D35A71" name="VEKOVA_KATEGORIE_PK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>619B0166-F073-1904-C4BB-27E73B275AD8</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2292965A-5787-F81D-3F94-D5A0FA9C39CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BE02416-2679-AD3A-C0A5-8FC78FA15A72" name="VEKOVE_KATEGORIE_ATRAKCE_FK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<generatorID>61544D33-D7C1-6DDB-7CD6-7AE319162945</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5C1C9C6-289F-5112-079A-86A9DCAF1B1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E13EB352-169E-C778-F0DD-8C6D2DF82D20" name="PRACOVNI_POZICE">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>BA11D19A-ED1D-FDE6-6A6D-7B328E3D40F1</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_pracovni_pozice" id="D36902C2-9017-BA5C-FE5C-805D0991E9D2">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>49CDF6C9-9ADF-2E60-583D-F6F9CC84CA7C</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazev_prac_pozici" id="B5037FCD-2E18-8538-B254-6C9F6111F178">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>4814E0D2-983F-48C6-B221-21ADDBA0FE21</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hodinova_mzda" id="F0E7D103-60B6-125D-F58D-5EE779AF1472">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>80B083EA-3FA2-7DCA-C0DD-F56EF7A84505</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDC6D3F8-B7CB-03D3-E7EF-DAF129A1837E" name="PRACOVNI_POZICE_PK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>8C76169A-3E83-87E3-377D-3F6159CA15FC</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D36902C2-9017-BA5C-FE5C-805D0991E9D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

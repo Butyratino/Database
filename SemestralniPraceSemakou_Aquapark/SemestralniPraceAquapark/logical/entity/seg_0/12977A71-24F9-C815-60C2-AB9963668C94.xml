@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12977A71-24F9-C815-60C2-AB9963668C94" name="VSTUPENKA">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:11:47 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_vstupenka" id="D33AE9A1-9410-FF80-F4B9-DD28A454C5B2">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:36:18 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Termin" id="6B9B5845-54A8-2EBB-2488-7174D62E09E5">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:36:33 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_aquapark" id="0A832B2E-6FE4-C2FF-3335-74280FA7BE10">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:47:40 UTC</createdTime>
+<generatorID>D98C7E16-B602-8CB7-C446-3BC78220EDEB</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<referedAttribute>8CA863B0-02B2-6FCB-8C59-29BAF64069A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_typ_vstupenky" id="303FFC7D-19A8-70C8-8905-94A4D18A0AFC">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-15 08:51:03 UTC</createdTime>
+<generatorID>EA92CC63-E56E-96A8-843B-1F3C50154D85</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<referedAttribute>1916B229-1072-6F0D-2614-507E0E994C0D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_platba" id="F816373E-2130-2041-56D1-05A88267FB3F">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-09 20:17:36 UTC</createdTime>
+<generatorID>D31E0671-3CF3-0D97-DEE8-E632531BA2AE</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<referedAttribute>C31FCA82-39DF-985C-92F8-D22AE00EB7E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53EDF43D-12D5-5816-F56E-71356C97961C" name="VSTUPENKA PK">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:36:29 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D33AE9A1-9410-FF80-F4B9-DD28A454C5B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

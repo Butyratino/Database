@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33252A24-F20B-D666-F704-EABCD54C0E2D" name="TITULY_ZAMESTNANCU">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<ordsAlias>titul_zamestnanec</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_titul" id="FD08E5F2-84C9-AFFE-D111-96563DDD990B">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDDB3E25-9A2E-5282-9B6A-50EB9A1ED75F" referredColumn="D81DBDC2-3137-56D9-7EFF-D1368E84200B"/>
+</associations>
+</Column>
+<Column name="ID_zamestnanec" id="75D4F0B0-E5F5-F1D7-C8F6-A1A2D8FE5D5E">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95EAEE78-93AA-D2ED-A490-B3125CAA71E2" referredColumn="ED8A048F-668A-92C2-7B7E-F87ED48135D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="174B0578-039B-56E8-C429-779E6C31A5E5" name="TITUL_ZAMESTNANEC_PK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD08E5F2-84C9-AFFE-D111-96563DDD990B"/>
+<colUsage columnID="75D4F0B0-E5F5-F1D7-C8F6-A1A2D8FE5D5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D8EF96E-DF99-E0C4-1782-67BE489136B6" name="TITUL_ZAMESTNANEC_TITUL_FK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<generatorID>A3D5FFE3-B564-CFA3-7E7D-8EAD1C945FFD</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD08E5F2-84C9-AFFE-D111-96563DDD990B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8152C25-EAC7-F86C-FA76-8859B2CEEAF3" name="TITUL_ZAM_ZAM_FK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<generatorID>A3D5FFE3-B564-CFA3-7E7D-8EAD1C945FFD</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75D4F0B0-E5F5-F1D7-C8F6-A1A2D8FE5D5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ATRAKCE_VEKOVA_KATEGORIE" directorySegmentName="seg_0" id="61544D33-D7C1-6DDB-7CD6-7AE319162945">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-09 20:04:14 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<sourcePk>D0EB760A-7AEE-F722-7760-A2FD3BD55F5D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>174EF4D8-A4AD-D7C6-0799-BE5C03C69033</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0CA8E847-C959-D65C-91E8-B7BC50A15FF7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

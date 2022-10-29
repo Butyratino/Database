@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72816DF9-FD40-9DA4-6A27-2E9303D2A590" name="VSTUPENKY">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>12977A71-24F9-C815-60C2-AB9963668C94</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<ordsAlias>vstupenka</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_vstupenka" id="1C4D4195-CF47-0E89-7467-02CDD14097FE">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>D33AE9A1-9410-FF80-F4B9-DD28A454C5B2</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Termin" id="97437F25-6DFA-3CD8-2638-43BE8972FBF6">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>6B9B5845-54A8-2EBB-2488-7174D62E09E5</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_aquapark" id="E8D4075E-F662-BA6B-BAFD-4CFE94941C90">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>0A832B2E-6FE4-C2FF-3335-74280FA7BE10</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D9DBCC9-2AE9-B6B2-E794-A5DEADC1D290" referredColumn="C6339BE9-F772-5970-2551-DE4C7F322FC8"/>
+</associations>
+</Column>
+<Column name="ID_typ_vstupenky" id="3DD6D07A-5E1A-5545-B0CF-F0FD99D86571">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>303FFC7D-19A8-70C8-8905-94A4D18A0AFC</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D81806D-A2BD-ECE1-02A2-760207F37D10" referredColumn="9BAC66C6-9B2B-ADDB-EC66-E287FD07DB24"/>
+</associations>
+</Column>
+<Column name="ID_platba" id="19174AE5-5F1D-3C9D-A01C-DD6A4AF008FB">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>F816373E-2130-2041-56D1-05A88267FB3F</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36069C32-E14C-8894-3ECE-B714823641EB" referredColumn="9B6BDFA2-457A-46E3-9EBD-4A2D8BC0CE9C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2108BF7D-D191-F493-8368-8A5C89923D5B" name="VSTUPENKA_PK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>53EDF43D-12D5-5816-F56E-71356C97961C</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C4D4195-CF47-0E89-7467-02CDD14097FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7974E69-B215-C843-FBA9-C0CEF261633F" name="VSTUPENKY_AQUAPARKY_FK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<generatorID>D98C7E16-B602-8CB7-C446-3BC78220EDEB</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8D4075E-F662-BA6B-BAFD-4CFE94941C90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4DE907F-6127-EFCE-0F8C-36FE1E60C3C9" name="VSTUPENKY_PLATBY_FK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<generatorID>D31E0671-3CF3-0D97-DEE8-E632531BA2AE</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19174AE5-5F1D-3C9D-A01C-DD6A4AF008FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3664EF8-33AE-41D9-23F3-14C542E24AFB" name="VSTUPENKY_TYPY_VSTUPENEK_FK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<generatorID>EA92CC63-E56E-96A8-843B-1F3C50154D85</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DD6D07A-5E1A-5545-B0CF-F0FD99D86571"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

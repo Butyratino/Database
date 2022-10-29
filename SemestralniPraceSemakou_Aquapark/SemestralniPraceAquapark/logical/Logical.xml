@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3D12BDFF-89FE-E6A3-262A-D47C095A9749" mainViewID="078ACE50-0AD4-418B-E2D7-C43C4390D5C6">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:10:37 UTC</createdTime>
+<ownerDesignName>Semestralka_Aquapark</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

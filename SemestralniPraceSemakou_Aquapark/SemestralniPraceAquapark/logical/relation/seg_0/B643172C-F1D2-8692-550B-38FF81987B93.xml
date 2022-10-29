@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ADRESA_AQUAPARK" directorySegmentName="seg_0" id="B643172C-F1D2-8692-550B-38FF81987B93">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:39:38 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<sourcePk>99F9303B-F071-929C-A68E-5C171153F448</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>747E73AF-6AAB-E144-803F-B4EACD131661</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B784703B-A04B-E593-35DE-671326A9FE47</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

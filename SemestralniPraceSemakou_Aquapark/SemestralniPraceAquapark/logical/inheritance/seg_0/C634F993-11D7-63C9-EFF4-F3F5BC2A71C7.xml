@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_1" directorySegmentName="seg_0" id="C634F993-11D7-63C9-EFF4-F3F5BC2A71C7">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-15 07:59:28 UTC</createdTime>
+<ownerDesignName>Semestralka_Aquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>EEA43211-A204-01D1-5687-B87FA99EE828</sourceEntity>
+<targetEntity>C60BE8E2-677F-7415-BF9F-542E27CFBB9B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

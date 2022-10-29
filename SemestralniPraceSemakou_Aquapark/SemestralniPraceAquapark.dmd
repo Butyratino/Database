@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SemestralniPraceAquapark" id="D3458336-8A24-37BF-FEB1-F2D32B454C86" version="3.5">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:10:37 UTC</createdTime>
+<ownerDesignName>Semestralka_Aquapark</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D3458336-8A24-37BF-FEB1-F2D32B454C86</designId>
+</OSDM_Design>

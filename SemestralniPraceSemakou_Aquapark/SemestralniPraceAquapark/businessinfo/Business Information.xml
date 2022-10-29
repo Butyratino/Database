@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="9CB0E543-052F-808B-4479-D3E046CDA9D3">
+<createdBy>semak</createdBy>
+<createdTime>2021-11-10 13:10:37 UTC</createdTime>
+<ownerDesignName>Semestralka_Aquapark</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4371B6E6-E0F7-9429-F3A1-C121C209B37A" containerWithKeyObject="272AC669-7F81-81F6-1DB1-0C08F6C1B79B" localFKIndex="B27577E4-9EF6-0DE5-74FE-A241CD0DDF89" name="ZAMESTNANCI_ADRESY_FK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<generatorID>BA12C4B7-7DF8-0F26-D48B-F64EA4887DFC</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<referredTableLongName>ADRESA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD21F164-FB23-4393-5946-4E8F08C0DABA</referredTableID>
+<keyObject>D30AA7B5-7A8A-AF96-DB13-08AC356E9009</keyObject>
+<referredKeyID>D30AA7B5-7A8A-AF96-DB13-08AC356E9009</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_adresa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

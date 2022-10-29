@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="0D8A652F-1F6D-E107-2262-73C5118EA75E" name="FKArc_2">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<ownerDesignName>SemestralkaAquapark_final</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>D086334C-AF7E-3F10-5B0E-B3113E27D156</table>
+<discriminatorColumn>3F28238E-CD88-1A80-40E0-6458B7F2D200</discriminatorColumn>
+<fkeys>
+<fkeyID>134653AB-6A04-AE04-8E41-9B463DB41FAF</fkeyID>
+<fkeyID>732A8EBB-D4D2-FEA1-5301-9B3354F37568</fkeyID>
+</fkeys>
+</FKArc>

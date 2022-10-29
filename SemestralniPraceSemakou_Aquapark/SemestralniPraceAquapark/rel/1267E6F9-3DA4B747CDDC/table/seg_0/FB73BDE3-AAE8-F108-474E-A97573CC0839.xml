@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB73BDE3-AAE8-F108-474E-A97573CC0839" name="ATRAKCE">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>174EF4D8-A4AD-D7C6-0799-BE5C03C69033</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_atrakce" id="FA89FE6D-F305-EFDC-30A1-7E150F0B1B7E">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>FBE46110-6410-4684-6731-AAD3167E7E3E</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popis" id="63AABC51-F7C6-8A59-D6BE-73368AA9A572">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>8243AA22-FEE5-F113-3322-F19393D55CC4</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_aquapark" id="20A6C785-1612-6A03-B27F-E03DBC9B505C">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>611CBB00-9A41-8F9F-DAAB-663CAED5BFF5</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8833644-AD6B-6E08-62E0-F5D1C37A5B6C" referredColumn="C6339BE9-F772-5970-2551-DE4C7F322FC8"/>
+</associations>
+</Column>
+<Column name="ID_naklad" id="1E65B2AF-1401-1032-0269-8DA45148D47C">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>A3A78E23-32D5-6CFE-C206-139A25F3D240</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3C6A5B2-A476-AB73-FE72-4F99573F3E0C" referredColumn="590D6DDE-E817-270D-D07D-4C1AA3C24B10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="875BD2C1-B2C4-F20C-FB3B-92CDBE6C56DE" name="ATRAKCE_PK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:21 UTC</createdTime>
+<generatorID>D0EB760A-7AEE-F722-7760-A2FD3BD55F5D</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA89FE6D-F305-EFDC-30A1-7E150F0B1B7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="506CAD0F-90FC-0D67-530A-01CEF4EB6A0B" name="ATRAKCE_AQUAPARKY_FK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<generatorID>3638EE22-5FA8-4F63-B533-3C93D5D57B68</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20A6C785-1612-6A03-B27F-E03DBC9B505C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6BEFF6C-F269-7D15-96EE-EA71C628FB8B" name="ATRAKCE_NAKLADY_FK">
+<createdBy>semak</createdBy>
+<createdTime>2021-12-10 10:59:22 UTC</createdTime>
+<generatorID>8EFF2D5E-DCF3-8151-D08E-78366307BDEC</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E65B2AF-1401-1032-0269-8DA45148D47C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
