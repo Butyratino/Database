@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F05306B7-76BE-0311-142E-3F3D85A852EF" name="Log">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 14:37:19 UTC</createdTime>
+<generatorID>8F70D231-74BA-17D2-145D-17221E07C00C</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AQUAPARK_ID_aquapark" id="9635AEF1-F24E-BEA6-1421-B775FD8D5603">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 14:37:19 UTC</createdTime>
+<generatorID>BF2F7B34-D5FE-1374-6CF1-EA42999490E9</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29D48AC6-80F3-7250-E42F-4EEFBD872B33" referredColumn="C6339BE9-F772-5970-2551-DE4C7F322FC8"/>
+</associations>
+</Column>
+<Column name="ID_log" id="F6C11033-D380-5DB0-0AA7-2EB44A86BA10">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 14:37:19 UTC</createdTime>
+<generatorID>2A87C80E-0B53-8F35-DA53-B44272D42F50</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="10F70619-ECDB-FD16-82B3-15135315E833">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 14:37:19 UTC</createdTime>
+<generatorID>82C48861-AD42-A15D-2E23-5BC81F1C7CC8</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popis" id="8B8DF388-EC1E-C764-0A4C-E8EE541E8BA8">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 14:37:19 UTC</createdTime>
+<generatorID>9022E887-2FFE-43C7-3801-6182B9E5E2AA</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05F3B017-8003-CBB3-91EA-15F136A21941" name="Log_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 14:37:19 UTC</createdTime>
+<generatorID>E1BA12B7-01DB-DA51-A647-94D40F696DBA</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6C11033-D380-5DB0-0AA7-2EB44A86BA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C8ECFAA-40A9-D3A3-CA9A-B4CF1E2F806E" name="Log__IDX">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 14:37:19 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A83DBF9E-A026-F939-0D4B-4320A027AA72</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9635AEF1-F24E-BEA6-1421-B775FD8D5603"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C15CEC6-555F-922C-DB10-478F143A33DA" name="Log_AQUAPARK_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 14:37:19 UTC</createdTime>
+<generatorID>A83DBF9E-A026-F939-0D4B-4320A027AA72</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9635AEF1-F24E-BEA6-1421-B775FD8D5603"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

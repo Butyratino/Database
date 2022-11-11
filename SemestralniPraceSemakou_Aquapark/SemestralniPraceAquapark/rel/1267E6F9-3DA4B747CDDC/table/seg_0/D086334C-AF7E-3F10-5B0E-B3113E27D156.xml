@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D086334C-AF7E-3F10-5B0E-B3113E27D156" name="PLATBY">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D086334C-AF7E-3F10-5B0E-B3113E27D156" name="PLATBA">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>EEA43211-A204-01D1-5687-B87FA99EE828</generatorID>
@@ -34,7 +34,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5B227B41-EF75-DFDE-10C0-C0A4CC51588D" name="PLATBY_PK">
+<ind_PK_UK id="5B227B41-EF75-DFDE-10C0-C0A4CC51588D" name="PLATBA_PK">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>0FC38998-660F-EDB7-4A5B-37446AEB3335</generatorID>

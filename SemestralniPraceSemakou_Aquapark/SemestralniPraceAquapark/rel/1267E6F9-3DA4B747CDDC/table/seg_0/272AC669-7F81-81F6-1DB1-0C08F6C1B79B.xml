@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="272AC669-7F81-81F6-1DB1-0C08F6C1B79B" name="ZAMESTNANCI">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="272AC669-7F81-81F6-1DB1-0C08F6C1B79B" name="ZAMESTNANEC">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>CA7E5295-6750-A6A7-51DF-F0A49A1D3AF8</generatorID>
@@ -44,7 +44,30 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_aquapark" id="26292F83-3F22-E0BC-909A-FF22D9E550C7">
+<Column name="Email" id="359B1752-7FFA-AAC4-84B3-FBF551AEAAB6">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 14:26:24 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Heslo" id="C49307FE-EFC6-158C-1FE1-02E21DE3C0E1">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 14:26:24 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AQUAPARK_ID_aquapark" id="26292F83-3F22-E0BC-909A-FF22D9E550C7">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>E00B91DF-D846-4551-3C5B-77CC6D63D5D6</generatorID>
@@ -59,7 +82,7 @@
 <colAssociation fkAssociation="C8984509-163C-F83D-C371-16D9A126B64B" referredColumn="C6339BE9-F772-5970-2551-DE4C7F322FC8"/>
 </associations>
 </Column>
-<Column name="ID_adresa" id="DBA21BC3-916D-414F-ADEC-F2D97503EDC7">
+<Column name="ADRESA_ID_adresa" id="DBA21BC3-916D-414F-ADEC-F2D97503EDC7">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>2CBDE7D6-37E6-6E77-2741-25F9E5262AF9</generatorID>
@@ -74,7 +97,7 @@
 <colAssociation fkAssociation="4371B6E6-E0F7-9429-F3A1-C121C209B37A" referredColumn="F68981FB-3470-F602-AC5F-E284BE26B3E6"/>
 </associations>
 </Column>
-<Column name="ID_pracovni_pozice" id="804BED5C-1254-D84B-7C15-4BE991DA1A49">
+<Column name="PRACOVNI_POZICE_ID_pracovni_pozice" id="804BED5C-1254-D84B-7C15-4BE991DA1A49">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>07DEDB66-4A49-9D19-3311-45F94E4D9898</generatorID>
@@ -89,7 +112,7 @@
 <colAssociation fkAssociation="489461E9-E3BF-F3A8-E9E1-5498FD204E72" referredColumn="D36902C2-9017-BA5C-FE5C-805D0991E9D2"/>
 </associations>
 </Column>
-<Column name="ID_zamestnanec_1" id="C46D74B1-2D21-777E-E0C5-0213C35415ED">
+<Column name="ZAMESTNANEC_ID_zamestnanec" id="C46D74B1-2D21-777E-E0C5-0213C35415ED">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>779D9865-FFB3-2000-2780-806536CA285A</generatorID>
@@ -104,7 +127,7 @@
 <colAssociation fkAssociation="20AA0A4B-295A-8A0A-96D9-E0C91CC1620D" referredColumn="ED8A048F-668A-92C2-7B7E-F87ED48135D0"/>
 </associations>
 </Column>
-<Column name="ID_naklad" id="57D0AF89-FF82-1CCA-7915-8585FC22A0C6">
+<Column name="NAKLADY_ID_naklad" id="57D0AF89-FF82-1CCA-7915-8585FC22A0C6">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>F3797972-596B-9453-387C-E3C8FDF1AF0E</generatorID>
@@ -133,7 +156,18 @@
 <colUsage columnID="ED8A048F-668A-92C2-7B7E-F87ED48135D0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B27577E4-9EF6-0DE5-74FE-A241CD0DDF89" name="ZAMESTNANCI_ADRESY_FK">
+<ind_PK_UK id="8E245C9C-F2AB-A7AA-D3A3-747FB1E751BE" name="ZAMESTNANEC__IDX">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 14:37:19 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BA12C4B7-7DF8-0F26-D48B-F64EA4887DFC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DBA21BC3-916D-414F-ADEC-F2D97503EDC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B27577E4-9EF6-0DE5-74FE-A241CD0DDF89" name="ZAMESTNANEC_ADRESA_FK">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:22 UTC</createdTime>
 <generatorID>BA12C4B7-7DF8-0F26-D48B-F64EA4887DFC</generatorID>
@@ -144,7 +178,7 @@
 <colUsage columnID="DBA21BC3-916D-414F-ADEC-F2D97503EDC7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="480A38ED-D07E-5C22-DCB2-EBE91D295D41" name="ZAMESTNANCI_AQUAPARKY_FK">
+<ind_PK_UK id="480A38ED-D07E-5C22-DCB2-EBE91D295D41" name="ZAMESTNANEC_AQUAPARK_FK">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:22 UTC</createdTime>
 <generatorID>B3785328-EC11-EE21-33A8-189E4114F1B4</generatorID>
@@ -155,7 +189,7 @@
 <colUsage columnID="26292F83-3F22-E0BC-909A-FF22D9E550C7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="07631A26-5ED8-14D8-0EEB-742EB8E288A2" name="ZAMESTNANCI_NAKLADY_FK">
+<ind_PK_UK id="07631A26-5ED8-14D8-0EEB-742EB8E288A2" name="ZAMESTNANEC_NAKLADY_FK">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:22 UTC</createdTime>
 <generatorID>72B81CFC-07C5-48AC-6575-A1F52FB48927</generatorID>
@@ -166,7 +200,7 @@
 <colUsage columnID="57D0AF89-FF82-1CCA-7915-8585FC22A0C6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A15997AB-ADA6-334B-5ADC-2EBB5BE790A4" name="ZAMESTNANCI_PRACOVNI_POZICE_FK">
+<ind_PK_UK id="A15997AB-ADA6-334B-5ADC-2EBB5BE790A4" name="ZAMESTNANEC_PRACOVNI_POZICE_FK">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:22 UTC</createdTime>
 <generatorID>7D97FB35-FBD0-9141-6C53-0390F6A84527</generatorID>
@@ -177,7 +211,7 @@
 <colUsage columnID="804BED5C-1254-D84B-7C15-4BE991DA1A49"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="97DB9086-6B49-6FB3-8A23-A9F4430AE960" name="ZAMESTNANCI_ZAMESTNANCI_FK">
+<ind_PK_UK id="97DB9086-6B49-6FB3-8A23-A9F4430AE960" name="ZAMESTNANEC_ZAMESTNANEC_FK">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:22 UTC</createdTime>
 <generatorID>3AB0C8D7-7708-2116-E0D9-4F03080B9BA4</generatorID>

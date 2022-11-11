@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="36069C32-E14C-8894-3ECE-B714823641EB" containerWithKeyObject="72816DF9-FD40-9DA4-6A27-2E9303D2A590" localFKIndex="F4DE907F-6127-EFCE-0F8C-36FE1E60C3C9" name="VSTUPENKY_PLATBY_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="36069C32-E14C-8894-3ECE-B714823641EB" containerWithKeyObject="72816DF9-FD40-9DA4-6A27-2E9303D2A590" localFKIndex="F4DE907F-6127-EFCE-0F8C-36FE1E60C3C9" name="VSTUPENKA_PLATBA_FK">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:22 UTC</createdTime>
 <generatorID>D31E0671-3CF3-0D97-DEE8-E632531BA2AE</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
-<referredTableLongName>PLATBY</referredTableLongName>
+<referredTableLongName>PLATBA</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>D086334C-AF7E-3F10-5B0E-B3113E27D156</referredTableID>
 <keyObject>5B227B41-EF75-DFDE-10C0-C0A4CC51588D</keyObject>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4029F4D1-ADD4-A843-0119-6067246FA204" name="VEKOVE_KATEGORIE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4029F4D1-ADD4-A843-0119-6067246FA204" name="VEKOVA_KATEGORIE">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>0CA8E847-C959-D65C-91E8-B7BC50A15FF7</generatorID>
@@ -32,7 +32,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_atrakce" id="D5C1C9C6-289F-5112-079A-86A9DCAF1B1A">
+<Column name="ATRAKCE_ID_atrakce" id="D5C1C9C6-289F-5112-079A-86A9DCAF1B1A">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>28952062-7C41-CDB6-DAFB-30A333C7033D</generatorID>
@@ -61,7 +61,7 @@
 <colUsage columnID="2292965A-5787-F81D-3F94-D5A0FA9C39CC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3BE02416-2679-AD3A-C0A5-8FC78FA15A72" name="VEKOVE_KATEGORIE_ATRAKCE_FK">
+<ind_PK_UK id="3BE02416-2679-AD3A-C0A5-8FC78FA15A72" name="VEKOVA_KATEGORIE_ATRAKCE_FK">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:22 UTC</createdTime>
 <generatorID>61544D33-D7C1-6DDB-7CD6-7AE319162945</generatorID>
