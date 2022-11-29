@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_titul" id="9E04E9F2-2B71-B9FB-2471-A4B5ADA67D8D">
+<Attribute name="ID titul" id="9E04E9F2-2B71-B9FB-2471-A4B5ADA67D8D">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-15 08:41:03 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nazev_titulu" id="172E9D2F-75CD-88FE-DB6B-C4077EE68531">
+<Attribute name="Nazev titulu" id="172E9D2F-75CD-88FE-DB6B-C4077EE68531">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-16 11:42:28 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -55,7 +55,7 @@
 <attributeRef>9E04E9F2-2B71-B9FB-2471-A4B5ADA67D8D</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="EAA7B8B8-3C63-20EC-1D8A-2353C75E5B6D" name="Key_2">
+<identifier id="EAA7B8B8-3C63-20EC-1D8A-2353C75E5B6D" name="TITUL_Nazev_titulu_UN">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-06 11:15:36 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -63,6 +63,9 @@
 <engineerTo>
 <item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="false"/>
 </engineerTo>
+<usedAttributes>
+<attributeRef>172E9D2F-75CD-88FE-DB6B-C4077EE68531</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

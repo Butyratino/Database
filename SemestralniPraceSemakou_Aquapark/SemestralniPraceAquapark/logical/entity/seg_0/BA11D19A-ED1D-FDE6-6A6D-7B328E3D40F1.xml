@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA11D19A-ED1D-FDE6-6A6D-7B328E3D40F1" name="PRACOVNI_POZICE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA11D19A-ED1D-FDE6-6A6D-7B328E3D40F1" name="PRACOVNI POZICE">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-14 21:33:37 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_pracovni_pozice" id="49CDF6C9-9ADF-2E60-583D-F6F9CC84CA7C">
+<Attribute name="ID pracovni pozice" id="49CDF6C9-9ADF-2E60-583D-F6F9CC84CA7C">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-14 21:34:48 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nazev_prac_pozici" id="4814E0D2-983F-48C6-B221-21ADDBA0FE21">
+<Attribute name="Nazev prac pozici" id="4814E0D2-983F-48C6-B221-21ADDBA0FE21">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-16 11:43:02 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -40,7 +40,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Hodinova_mzda" id="80B083EA-3FA2-7DCA-C0DD-F56EF7A84505">
+<Attribute name="Hodinova mzda" id="80B083EA-3FA2-7DCA-C0DD-F56EF7A84505">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-07 12:57:50 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -54,7 +54,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8C76169A-3E83-87E3-377D-3F6159CA15FC" name="PRACOVNI_POZICE PK">
+<identifier id="8C76169A-3E83-87E3-377D-3F6159CA15FC" name="PRACOVNI_POZICE_PK">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-14 21:34:59 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>

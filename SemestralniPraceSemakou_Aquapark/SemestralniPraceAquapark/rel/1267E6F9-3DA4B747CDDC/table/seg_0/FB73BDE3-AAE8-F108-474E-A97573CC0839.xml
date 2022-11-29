@@ -31,7 +31,7 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="AQUAPARK_ID_aquapark" id="20A6C785-1612-6A03-B27F-E03DBC9B505C">
+<Column name="ID_aquapark" id="20A6C785-1612-6A03-B27F-E03DBC9B505C">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>611CBB00-9A41-8F9F-DAAB-663CAED5BFF5</generatorID>
@@ -46,7 +46,7 @@
 <colAssociation fkAssociation="A8833644-AD6B-6E08-62E0-F5D1C37A5B6C" referredColumn="C6339BE9-F772-5970-2551-DE4C7F322FC8"/>
 </associations>
 </Column>
-<Column name="NAKLADY_ID_naklad" id="1E65B2AF-1401-1032-0269-8DA45148D47C">
+<Column name="ID_naklad" id="1E65B2AF-1401-1032-0269-8DA45148D47C">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>A3A78E23-32D5-6CFE-C206-139A25F3D240</generatorID>

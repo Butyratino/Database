@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PLATBA_VSTUPENKA" directorySegmentName="seg_0" id="D31E0671-3CF3-0D97-DEE8-E632531BA2AE">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VSTUPENKA PLATBA FK" directorySegmentName="seg_0" id="D31E0671-3CF3-0D97-DEE8-E632531BA2AE">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-16 11:44:59 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB65B5A5-A257-40F7-8179-673C1F37F3A6" name="Image_table">
+<createdBy>user</createdBy>
+<createdTime>2022-11-29 09:15:06 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_blob" id="F23AC510-8F04-2EEA-0C4D-92C0D4C668C6">
+<createdBy>user</createdBy>
+<createdTime>2022-11-29 09:18:18 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="C985F787-374B-CD55-6198-8FDAF4858DEB">
+<createdBy>user</createdBy>
+<createdTime>2022-11-29 09:18:18 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Image_Aquapark" id="F196BE1F-5104-EDF3-E88E-BD52E8CDD299">
+<createdBy>user</createdBy>
+<createdTime>2022-11-29 09:18:18 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Image_Atrakce" id="753C684F-F7ED-0B5E-DE37-15C7570FAF60">
+<createdBy>user</createdBy>
+<createdTime>2022-11-29 09:18:18 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E643AE8-C1D1-83A9-4D32-FCD15ECFCFD9" name="Image_table_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-29 09:18:18 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F23AC510-8F04-2EEA-0C4D-92C0D4C668C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

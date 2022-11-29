@@ -4,7 +4,6 @@
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>A612B565-F51A-3DF6-1335-D0A17B39718A</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
-<ordsAlias>stat</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -19,6 +18,17 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypeScale>80</dataTypeScale>
 <ownDataTypeParameters>,,80</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazev_statu" id="189A4FDA-7F54-59C7-01BE-1E9ED74D0F1A">
+<createdBy>user</createdBy>
+<createdTime>2022-11-29 10:14:02 UTC</createdTime>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

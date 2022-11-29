@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F70D231-74BA-17D2-145D-17221E07C00C" name="Log">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFCD5327-70CA-8482-5B79-430BE7801626" name="Image table">
 <createdBy>user</createdBy>
-<createdTime>2022-11-11 14:28:32 UTC</createdTime>
+<createdTime>2022-11-29 09:22:47 UTC</createdTime>
+<generatorID>AB65B5A5-A257-40F7-8179-673C1F37F3A6</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
 <engineerTo>
 <item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
@@ -15,23 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID aquapark" id="BF2F7B34-D5FE-1374-6CF1-EA42999490E9">
+<Attribute name="ID blob" id="1C5B88FB-92F8-E80C-7452-4DC220AF99F3">
 <createdBy>user</createdBy>
-<createdTime>2022-11-11 14:29:51 UTC</createdTime>
-<generatorID>A83DBF9E-A026-F939-0D4B-4320A027AA72</generatorID>
-<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
-<engineerTo>
-<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
-</engineerTo>
-<referedAttribute>8CA863B0-02B2-6FCB-8C59-29BAF64069A2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID log" id="2A87C80E-0B53-8F35-DA53-B44272D42F50">
-<createdBy>user</createdBy>
-<createdTime>2022-11-11 14:31:10 UTC</createdTime>
+<createdTime>2022-11-29 09:22:47 UTC</createdTime>
+<generatorID>F23AC510-8F04-2EEA-0C4D-92C0D4C668C6</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
 <engineerTo>
 <item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
@@ -41,44 +29,59 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Date" id="82C48861-AD42-A15D-2E23-5BC81F1C7CC8">
+<Attribute name="Name" id="F5DE2998-CA01-4952-50D1-A72F8D2BF259">
 <createdBy>user</createdBy>
-<createdTime>2022-11-11 14:32:27 UTC</createdTime>
+<createdTime>2022-11-29 09:22:47 UTC</createdTime>
+<generatorID>C985F787-374B-CD55-6198-8FDAF4858DEB</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
 <engineerTo>
 <item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Image Aquapark" id="399F3D46-74BC-3EF3-7A5F-97B98C180D57">
+<createdBy>user</createdBy>
+<createdTime>2022-11-29 09:22:47 UTC</createdTime>
+<generatorID>F196BE1F-5104-EDF3-E88E-BD52E8CDD299</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Popis" id="9022E887-2FFE-43C7-3801-6182B9E5E2AA">
+<Attribute name="Image Atrakce" id="741C44F9-D977-50D0-DA43-C97710A2A359">
 <createdBy>user</createdBy>
-<createdTime>2022-11-11 14:33:18 UTC</createdTime>
+<createdTime>2022-11-29 09:22:47 UTC</createdTime>
+<generatorID>753C684F-F7ED-0B5E-DE37-15C7570FAF60</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
 <engineerTo>
 <item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E1BA12B7-01DB-DA51-A647-94D40F696DBA" name="Log PK">
+<identifier id="824B44E9-3CD6-1820-2114-E8988D0E35EC" name="Image table PK">
 <createdBy>user</createdBy>
-<createdTime>2022-11-11 14:32:17 UTC</createdTime>
+<createdTime>2022-11-29 09:22:47 UTC</createdTime>
+<generatorID>3E643AE8-C1D1-83A9-4D32-FCD15ECFCFD9</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="false"/>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2A87C80E-0B53-8F35-DA53-B44272D42F50</attributeRef>
+<attributeRef>1C5B88FB-92F8-E80C-7452-4DC220AF99F3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

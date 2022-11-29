@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_aquapark" id="8CA863B0-02B2-6FCB-8C59-29BAF64069A2">
+<Attribute name="ID aquapark" id="8CA863B0-02B2-6FCB-8C59-29BAF64069A2">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-10 13:24:52 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nazev_aquaparku" id="6D70A843-F9FA-69D9-DE20-245C7AB28AAE">
+<Attribute name="Nazev aquaparku" id="6D70A843-F9FA-69D9-DE20-245C7AB28AAE">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-07 12:11:26 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -40,7 +40,7 @@
 <dataTypeSize>80</dataTypeSize>
 <ownDataTypeParameters>80,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Pracovni_hodiny" id="3AA65B7F-6C72-6CB8-1C71-755EF8337A8A">
+<Attribute name="Pracovni hodiny" id="3AA65B7F-6C72-6CB8-1C71-755EF8337A8A">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-10 13:25:09 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -52,7 +52,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_adresa" id="6BEF4608-CFDD-75CB-CBFA-62C47A0E976E">
+<Attribute name="ID adresa" id="6BEF4608-CFDD-75CB-CBFA-62C47A0E976E">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-10 13:40:48 UTC</createdTime>
 <generatorID>B643172C-F1D2-8692-550B-38FF81987B93</generatorID>

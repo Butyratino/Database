@@ -4,7 +4,6 @@
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>0CA8E847-C959-D65C-91E8-B7BC50A15FF7</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
-<ordsAlias>vekova_kategorie</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -32,7 +31,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ATRAKCE_ID_atrakce" id="D5C1C9C6-289F-5112-079A-86A9DCAF1B1A">
+<Column name="ID_atrakce" id="D5C1C9C6-289F-5112-079A-86A9DCAF1B1A">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>28952062-7C41-CDB6-DAFB-30A333C7033D</generatorID>

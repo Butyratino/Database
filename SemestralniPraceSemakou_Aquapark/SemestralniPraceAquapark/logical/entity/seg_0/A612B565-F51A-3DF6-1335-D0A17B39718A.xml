@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_stat" id="791B1304-0DB9-98D4-FDEE-C3B12C4C7F24">
+<Attribute name="ID stat" id="791B1304-0DB9-98D4-FDEE-C3B12C4C7F24">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-03 10:49:37 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>

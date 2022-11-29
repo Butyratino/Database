@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82FD31D0-9C2A-5475-C32D-E4F53EDD658A" name="TYP_VSTUPENKY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82FD31D0-9C2A-5475-C32D-E4F53EDD658A" name="TYP VSTUPENKY">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-14 21:20:13 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_typ_vstupenky" id="1916B229-1072-6F0D-2614-507E0E994C0D">
+<Attribute name="ID typ vstupenky" id="1916B229-1072-6F0D-2614-507E0E994C0D">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-15 08:50:34 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nazev_typu_vstupenky" id="11AC78C9-07D1-9694-4CF7-A43440FC0107">
+<Attribute name="Nazev typu vstupenky" id="11AC78C9-07D1-9694-4CF7-A43440FC0107">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-16 11:43:45 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -54,7 +54,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F1DE6B33-79A3-4733-D417-E3BBD8C8579D" name="TYP_VSTUPENKY PK">
+<identifier id="F1DE6B33-79A3-4733-D417-E3BBD8C8579D" name="TYP_VSTUPENKY_PK">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-15 08:51:01 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>

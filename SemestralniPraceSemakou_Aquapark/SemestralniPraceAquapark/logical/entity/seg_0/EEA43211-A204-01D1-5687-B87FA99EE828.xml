@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_platba" id="C31FCA82-39DF-985C-92F8-D22AE00EB7E8">
+<Attribute name="ID platba" id="C31FCA82-39DF-985C-92F8-D22AE00EB7E8">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-15 07:51:46 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Typ_platby" id="EA484B45-3C98-BE75-907C-81E889979A92">
+<Attribute name="Typ platby" id="EA484B45-3C98-BE75-907C-81E889979A92">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-02 11:20:26 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>

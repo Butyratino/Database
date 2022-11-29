@@ -4,7 +4,6 @@
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>12977A71-24F9-C815-60C2-AB9963668C94</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
-<ordsAlias>vstupenka</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -31,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="AQUAPARK_ID_aquapark" id="E8D4075E-F662-BA6B-BAFD-4CFE94941C90">
+<Column name="ID_aquapark" id="E8D4075E-F662-BA6B-BAFD-4CFE94941C90">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>0A832B2E-6FE4-C2FF-3335-74280FA7BE10</generatorID>
@@ -46,7 +45,7 @@
 <colAssociation fkAssociation="5D9DBCC9-2AE9-B6B2-E794-A5DEADC1D290" referredColumn="C6339BE9-F772-5970-2551-DE4C7F322FC8"/>
 </associations>
 </Column>
-<Column name="TYP_VSTUPENKY_ID_typ_vstupenky" id="3DD6D07A-5E1A-5545-B0CF-F0FD99D86571">
+<Column name="ID_typ_vstupenky" id="3DD6D07A-5E1A-5545-B0CF-F0FD99D86571">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>303FFC7D-19A8-70C8-8905-94A4D18A0AFC</generatorID>
@@ -61,7 +60,7 @@
 <colAssociation fkAssociation="5D81806D-A2BD-ECE1-02A2-760207F37D10" referredColumn="9BAC66C6-9B2B-ADDB-EC66-E287FD07DB24"/>
 </associations>
 </Column>
-<Column name="PLATBA_ID_platba" id="19174AE5-5F1D-3C9D-A01C-DD6A4AF008FB">
+<Column name="ID_platba" id="19174AE5-5F1D-3C9D-A01C-DD6A4AF008FB">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>F816373E-2130-2041-56D1-05A88267FB3F</generatorID>

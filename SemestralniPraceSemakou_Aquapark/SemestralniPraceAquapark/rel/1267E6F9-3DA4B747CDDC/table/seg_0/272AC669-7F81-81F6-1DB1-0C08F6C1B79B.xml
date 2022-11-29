@@ -4,7 +4,6 @@
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>CA7E5295-6750-A6A7-51DF-F0A49A1D3AF8</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
-<ordsAlias>zamestnanec</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -59,7 +58,6 @@
 <createdBy>user</createdBy>
 <createdTime>2022-11-11 14:26:24 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -67,7 +65,7 @@
 <ownDataTypeParameters>16,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="AQUAPARK_ID_aquapark" id="26292F83-3F22-E0BC-909A-FF22D9E550C7">
+<Column name="ID_aquapark" id="26292F83-3F22-E0BC-909A-FF22D9E550C7">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>E00B91DF-D846-4551-3C5B-77CC6D63D5D6</generatorID>
@@ -82,7 +80,7 @@
 <colAssociation fkAssociation="C8984509-163C-F83D-C371-16D9A126B64B" referredColumn="C6339BE9-F772-5970-2551-DE4C7F322FC8"/>
 </associations>
 </Column>
-<Column name="ADRESA_ID_adresa" id="DBA21BC3-916D-414F-ADEC-F2D97503EDC7">
+<Column name="ID_adresa" id="DBA21BC3-916D-414F-ADEC-F2D97503EDC7">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>2CBDE7D6-37E6-6E77-2741-25F9E5262AF9</generatorID>
@@ -97,7 +95,7 @@
 <colAssociation fkAssociation="4371B6E6-E0F7-9429-F3A1-C121C209B37A" referredColumn="F68981FB-3470-F602-AC5F-E284BE26B3E6"/>
 </associations>
 </Column>
-<Column name="PRACOVNI_POZICE_ID_pracovni_pozice" id="804BED5C-1254-D84B-7C15-4BE991DA1A49">
+<Column name="ID_pracovni_pozice" id="804BED5C-1254-D84B-7C15-4BE991DA1A49">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>07DEDB66-4A49-9D19-3311-45F94E4D9898</generatorID>
@@ -112,11 +110,12 @@
 <colAssociation fkAssociation="489461E9-E3BF-F3A8-E9E1-5498FD204E72" referredColumn="D36902C2-9017-BA5C-FE5C-805D0991E9D2"/>
 </associations>
 </Column>
-<Column name="ZAMESTNANEC_ID_zamestnanec" id="C46D74B1-2D21-777E-E0C5-0213C35415ED">
+<Column name="ID_zamestnanec_podrizeny" id="C46D74B1-2D21-777E-E0C5-0213C35415ED">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>779D9865-FFB3-2000-2780-806536CA285A</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -127,7 +126,7 @@
 <colAssociation fkAssociation="20AA0A4B-295A-8A0A-96D9-E0C91CC1620D" referredColumn="ED8A048F-668A-92C2-7B7E-F87ED48135D0"/>
 </associations>
 </Column>
-<Column name="NAKLADY_ID_naklad" id="57D0AF89-FF82-1CCA-7915-8585FC22A0C6">
+<Column name="ID_naklad" id="57D0AF89-FF82-1CCA-7915-8585FC22A0C6">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>F3797972-596B-9453-387C-E3C8FDF1AF0E</generatorID>

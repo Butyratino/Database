@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_vstupenka" id="D33AE9A1-9410-FF80-F4B9-DD28A454C5B2">
+<Attribute name="ID vstupenka" id="D33AE9A1-9410-FF80-F4B9-DD28A454C5B2">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-10 13:36:18 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_aquapark" id="0A832B2E-6FE4-C2FF-3335-74280FA7BE10">
+<Attribute name="ID aquapark" id="0A832B2E-6FE4-C2FF-3335-74280FA7BE10">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-10 13:47:40 UTC</createdTime>
 <generatorID>D98C7E16-B602-8CB7-C446-3BC78220EDEB</generatorID>
@@ -53,7 +53,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_typ_vstupenky" id="303FFC7D-19A8-70C8-8905-94A4D18A0AFC">
+<Attribute name="ID typ vstupenky" id="303FFC7D-19A8-70C8-8905-94A4D18A0AFC">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-15 08:51:03 UTC</createdTime>
 <generatorID>EA92CC63-E56E-96A8-843B-1F3C50154D85</generatorID>
@@ -67,7 +67,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_platba" id="F816373E-2130-2041-56D1-05A88267FB3F">
+<Attribute name="ID platba" id="F816373E-2130-2041-56D1-05A88267FB3F">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-09 20:17:36 UTC</createdTime>
 <generatorID>D31E0671-3CF3-0D97-DEE8-E632531BA2AE</generatorID>

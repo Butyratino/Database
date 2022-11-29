@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_adresa" id="7B1824F3-3BA7-7BEA-B1C7-7DD81EB20B35">
+<Attribute name="ID adresa" id="7B1824F3-3BA7-7BEA-B1C7-7DD81EB20B35">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-10 13:40:41 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -40,7 +40,7 @@
 <dataTypeSize>150</dataTypeSize>
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Domovni_cislo" id="FEFA7819-E308-7459-C169-9713A9754379">
+<Attribute name="Domovni cislo" id="FEFA7819-E308-7459-C169-9713A9754379">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-07 18:28:18 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -80,7 +80,7 @@
 <dataTypeSize>150</dataTypeSize>
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_stat" id="B41C1676-5CB1-66A4-6953-C31060CF56B1">
+<Attribute name="ID stat" id="B41C1676-5CB1-66A4-6953-C31060CF56B1">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-09 19:57:23 UTC</createdTime>
 <generatorID>DAB3B271-C023-E937-E40C-6B15B0F58B9F</generatorID>

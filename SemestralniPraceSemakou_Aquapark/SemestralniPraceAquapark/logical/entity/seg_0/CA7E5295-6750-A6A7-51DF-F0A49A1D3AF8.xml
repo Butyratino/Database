@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_zamestnanec" id="25C2FC0E-F9E1-B923-6F3A-DAC5AAACD329">
+<Attribute name="ID zamestnanec" id="25C2FC0E-F9E1-B923-6F3A-DAC5AAACD329">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-10 13:53:57 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -53,7 +53,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_aquapark" id="E00B91DF-D846-4551-3C5B-77CC6D63D5D6">
+<Attribute name="ID aquapark" id="E00B91DF-D846-4551-3C5B-77CC6D63D5D6">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-10 13:58:07 UTC</createdTime>
 <generatorID>B3785328-EC11-EE21-33A8-189E4114F1B4</generatorID>
@@ -67,7 +67,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_adresa" id="2CBDE7D6-37E6-6E77-2741-25F9E5262AF9">
+<Attribute name="ID adresa" id="2CBDE7D6-37E6-6E77-2741-25F9E5262AF9">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-10 14:01:36 UTC</createdTime>
 <generatorID>BA12C4B7-7DF8-0F26-D48B-F64EA4887DFC</generatorID>
@@ -81,7 +81,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_pracovni_pozice" id="07DEDB66-4A49-9D19-3311-45F94E4D9898">
+<Attribute name="ID pracovni pozice" id="07DEDB66-4A49-9D19-3311-45F94E4D9898">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-14 21:35:09 UTC</createdTime>
 <generatorID>7D97FB35-FBD0-9141-6C53-0390F6A84527</generatorID>
@@ -95,7 +95,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_zamestnanec_vazba" id="779D9865-FFB3-2000-2780-806536CA285A">
+<Attribute name="ID zamestnanec podrizeny" id="779D9865-FFB3-2000-2780-806536CA285A">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-14 21:39:05 UTC</createdTime>
 <generatorID>3AB0C8D7-7708-2116-E0D9-4F03080B9BA4</generatorID>
@@ -110,7 +110,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_naklad" id="F3797972-596B-9453-387C-E3C8FDF1AF0E">
+<Attribute name="ID naklad" id="F3797972-596B-9453-387C-E3C8FDF1AF0E">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-07 18:21:22 UTC</createdTime>
 <generatorID>72B81CFC-07C5-48AC-6575-A1F52FB48927</generatorID>
@@ -123,6 +123,34 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="0DFBD1CA-4D2D-ED82-B19D-887E028A18A6">
+<createdBy>user</createdBy>
+<createdTime>2022-11-29 08:56:00 UTC</createdTime>
+<generatorID>359B1752-7FFA-AAC4-84B3-FBF551AEAAB6</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Heslo" id="6BD9F97D-FA94-6DC8-0DFE-04BA3D1BFD1A">
+<createdBy>user</createdBy>
+<createdTime>2022-11-29 08:56:00 UTC</createdTime>
+<generatorID>C49307FE-EFC6-158C-1FE1-02E21DE3C0E1</generatorID>
+<ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
+<engineerTo>
+<item key="1267E6F9-29A3-6B25-B6B6-3DA4B747CDDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

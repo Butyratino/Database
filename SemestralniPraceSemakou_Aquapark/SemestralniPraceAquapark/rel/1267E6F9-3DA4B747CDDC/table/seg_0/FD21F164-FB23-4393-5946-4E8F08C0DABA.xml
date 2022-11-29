@@ -4,7 +4,6 @@
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>747E73AF-6AAB-E144-803F-B4EACD131661</generatorID>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
-<ordsAlias>adresa</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -69,7 +68,7 @@
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STAT_ID_stat" id="0A3350D8-519B-213E-81C0-4F3EB63EAF4F">
+<Column name="ID_stat" id="0A3350D8-519B-213E-81C0-4F3EB63EAF4F">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-10 10:59:21 UTC</createdTime>
 <generatorID>B41C1676-5CB1-66A4-6953-C31060CF56B1</generatorID>
@@ -78,7 +77,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypeScale>80</dataTypeScale>
-<ownDataTypeParameters>,,80</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

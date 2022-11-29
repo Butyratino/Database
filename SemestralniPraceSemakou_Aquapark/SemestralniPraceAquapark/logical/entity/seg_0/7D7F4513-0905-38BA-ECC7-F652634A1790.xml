@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_naklad" id="57D6FCE4-F895-D597-C00F-F8B1D4EE8E93">
+<Attribute name="ID naklad" id="57D6FCE4-F895-D597-C00F-F8B1D4EE8E93">
 <createdBy>semak</createdBy>
 <createdTime>2021-11-10 13:38:08 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Typ_nakladu" id="58027470-6D46-49B2-5C6E-6A9CBF2E5E7A">
+<Attribute name="Typ nakladu" id="58027470-6D46-49B2-5C6E-6A9CBF2E5E7A">
 <createdBy>semak</createdBy>
 <createdTime>2021-12-07 18:30:14 UTC</createdTime>
 <ownerDesignName>SemestralniPraceAquapark</ownerDesignName>
